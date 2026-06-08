@@ -241,6 +241,4 @@ This project helped in understanding:
 
 Computer Science Engineering Student
 
-Email: [siddharthachennemsetti@gmail.com](mailto:siddharthachennemsetti@gmail.com)
-
 GitHub: https://github.com/siddardhach2005

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>ShopHub</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+            <a href="orders.html">Orders</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Electronics & Fashion Store</h1>
+    <p>Discover premium products at affordable prices.</p>
+</section>
+
+<section class="products">
+
+    <div class="product-card">
+        <img
+        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+        alt="Headphones"
+        class="product-image">
+
+        <h3>boAt Rockerz 412 Wireless Headphones</h3>
+        <p class="price">₹2999</p>
+        <p>Wireless Bluetooth headphones with immersive audio.</p>
+
+        <button onclick="addToCart('boAt Rockerz 412 Wireless Headphones',2999)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img
+        src="https://gourban.in/cdn/shop/files/Pulse.jpg?v=1749553994&width=2048"
+        alt="Smart Watch"
+        class="product-image">
+
+        <h3>Urban Pulse Smart Watch</h3>
+        <p class="price">₹4999</p>
+        <p>Fitness tracking smartwatch with multiple health features.</p>
+
+        <button onclick="addToCart('Urban Pulse Smart Watch',4999)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img
+        src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
+        alt="Gaming Mouse"
+        class="product-image">
+
+        <h3>PWX RapidWave U30 Gaming Mouse</h3>
+        <p class="price">₹1499</p>
+        <p>High-performance gaming mouse for precision control.</p>
+
+        <button onclick="addToCart('PWX RapidWave U30 Gaming Mouse',1499)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img
+        src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600"
+        alt="Casual Shirt"
+        class="product-image">
+
+        <h3>Men's Cotton Casual Shirt</h3>
+        <p class="price">₹999</p>
+        <p>Comfortable printed casual shirt for everyday wear.</p>
+
+        <button onclick="addToCart('Mens Cotton Casual Shirt',999)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img
+        src="https://images.unsplash.com/photo-1619603364904-c0498317e145?w=600"
+        alt="Hoodie"
+        class="product-image">
+
+        <h3>TAGAS Hoodie</h3>
+        <p class="price">₹1499</p>
+        <p>Stylish and comfortable printed hoodie.</p>
+
+        <button onclick="addToCart('TAGAS Hoodie',1499)">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img
+        src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=600"
+        alt="Jeans"
+        class="product-image">
+
+        <h3>Wrogn Denim Jeans</h3>
+        <p class="price">₹1999</p>
+        <p>Dark blue slim-fit denim jeans.</p>
+
+        <button onclick="addToCart('Wrogn Denim Jeans',1999)">
+            Add to Cart
+        </button>
+    </div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+</html>

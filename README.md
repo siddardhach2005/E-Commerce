@@ -70,14 +70,6 @@ This project is a full-stack E-Commerce Web Application developed using Node.js,
 * TAGAS Hoodie
 * Wrogn Denim Jeans
 
-## Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/your-username/ecommerce-app.git
-```
-
 ### Navigate to Backend Folder
 
 ```bash
